@@ -36,7 +36,7 @@ This project was built as a front-end design and animation exercise. The goal wa
 
 ## 🔗 Live Demo
 
-[Click here to view the live site]([https://your-demo-link.com](https://synthex-landing-page.vercel.app/))
+[Click here to view the live site]([https://synthex-landing-page.vercel.app])
 
 ---
 
