@@ -23,6 +23,7 @@ const pricingTiers = [
       "Integrations",
       "Basic support",
     ],
+    key: 1,
   },
   {
     title: "Pro",
@@ -39,6 +40,7 @@ const pricingTiers = [
       "Advanced support",
       "Export support",
     ],
+    key: 2,
   },
   {
     title: "Business",
@@ -58,6 +60,7 @@ const pricingTiers = [
       "API access",
       "Advanced security features",
     ],
+    key: 3,
   },
 ];
 
@@ -83,8 +86,10 @@ const Pricing = () => {
               popular,
               inverse,
               features,
+              key,
             }) => (
               <div
+                key={key}
                 className={twMerge(
                   "card",
                   inverse === true && "border-black bg-black text-white"
